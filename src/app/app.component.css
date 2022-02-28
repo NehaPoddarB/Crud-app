@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.main .header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1848px;
+    height: 150px;
+    
+}
+
+.main .header .logo-header img{
+    height: 130px;
+    width: 230px;
+    cursor: pointer;
+}
+.main .containt-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+}
+.main .containt-header .link{
+   
+    border-radius: 50px;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.main .containt-header .link:hover{
+    color: rgba(255, 68, 0, 0.945);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px 
+}
+.main .containt-header .link p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main .containt-header button{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.main .containt-header button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px 
+}
+
+
+
+.main .body{
+    display: flex;
+    height: 798px;
+    width:1848px;
+}
+.main .body .left-body{
+    height: 700px;
+    width: 360px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.main .body .left-body .list{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 360px;
+   height: 180px;
+  
+  
+  
+    
+} 
+
+.main .body .left-body .list .list-r{
+    justify-content: center;
+    text-align:center;
+    cursor: pointer;
+    font-size: 20px;
+    height: 80px;
+    width: 250px;
+    background-color:none; 
+    border-radius: 40px;
+    color: rgba(255, 68, 0, 0.945);
+    box-shadow:rgba(50, 50, 93, 0.123) 0px 6px 12px -2px;
+  
+}
+.main .body .left-body .list .list-r:hover{
+    background-color: rgba(255, 68, 0, 0.781); 
+    color: white;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+}
+.main .body .left-body .list .list-r p{
+    margin-top: 10px;
+}
+
+
+
+.main .body .right-body{
+    background-size: cover;
+    background-image: url("/assets/home-bg.jpg"); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 780px;
+    width: 1440px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+
+
+

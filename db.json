@@ -1,0 +1,29 @@
+{
+  "CreateList": [
+    {
+      "racipeName": "Tandoori pizza",
+      "prepationTime": "1 hour",
+      "ingredients": "warm water ,active dry yeast ,bread flour ,extra virgin olive oil , salt ,sugar",
+      "instructions": "Proof the yeast, Make and knead the pizza dough,  Let the dough rise, Make-Ahead and Freezing Instructions, Preparing the Pizzas, Flatten dough ball, and stretch out into a round ,Sprinkle pizza peel with corn meal, put flattened dough on top\n,Sprinkle cornmeal on pizza stone, slide pizza onto pizza stone in oven, Bake pizza!\n\nEnjoy!",
+      "id": 3
+      
+    },
+    {
+      "racipeName": "cake ",
+      "prepationTime": "3 hour",
+      "ingredients": "abc , xyz",
+      "instructions": "make cake",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

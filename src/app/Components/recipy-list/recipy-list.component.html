@@ -1,0 +1,20 @@
+
+
+<ul>
+    <li *ngFor="let list of DisplayRecipe">
+        <a>
+            <img src="./assets/g-13.jpg"  >
+            <div class="container" >
+               <div class="icon">
+                <span class="material-icons">
+                    favorite
+                   </span>
+                </div>
+                    <p>{{list.racipeName |uppercase}}</p> 
+                <div class="btn">
+                    <button mat-icon-button [routerLink]="['readMode',list.id]">Read more...</button>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,49 @@
+<h1>{{Title}}</h1>
+<form [formGroup]="CreateList">
+  <div mat-dialog-content>
+    <div class="main">
+      <img src="/assets/main.jpg" />
+    </div>
+    <div class="containt">
+      <mat-form-field appearance="outline">
+        <mat-label>Racipe Name</mat-label>
+        <input
+          matInput
+          placeholder="enter name..."
+          formControlName="racipeName"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Prepration Time</mat-label>
+        <input
+          matInput
+          placeholder="15 minutes..."
+          formControlName="prepationTime"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>ingredients</mat-label>
+        <input
+          matInput
+          placeholder="15 minutes..."
+          formControlName="ingredients"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Instructions</mat-label>
+        <textarea matInput formControlName="instructions"></textarea>
+      </mat-form-field>
+
+      <div mat-dialog-actions [align]="'end'">
+        <button mat-raised-button color="warn" mat-dialog-close ml-8>
+          Close
+        </button>
+        <button mat-raised-button color="primary" (click)="addRecipe()">
+          {{ ActionBtn }}
+        </button>
+      </div>
+    </div>
+  </div>
+</form>
