@@ -16,7 +16,7 @@ export class RecipyListComponent implements OnInit {
   ngOnInit(): void {
 
   this.getAllRecipe();
-  this.Images=this.api.getAllImg()
+
 
   }
 

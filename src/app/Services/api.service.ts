@@ -30,24 +30,7 @@ export class ApiService {
     return this.http.delete<any>("http://localhost:3000/CreateList/"+id);
   }
 
-  getAllImg():string[]
-  {
-    return[
-      '/assets/g-3.jpg',
-      '/assets/g-4.jpg'
-      // '/assets/g-5.jpg',
-      // '/assets/g-6.jpg',
-      // '/assets/g-7.jpg',
-      // '/assets/g-8.jpg',
-      // '/assets/g-9.jpg',
-      // '/assets/g-10.jpg',
-      // '/assets/g-11.jpg',
-      // '/assets/g-12.jpg',
-      // '/assets/g-13.jpg',
-      // '/assets/g-14.jpg'
-
-    ];
-  }
+ 
 }
 
 
